@@ -1,2 +1,0 @@
-# wbsassignment
-Created with CodeSandbox

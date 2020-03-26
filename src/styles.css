@@ -1,0 +1,76 @@
+#topsection {
+  height: 700px;
+  background-image: url("/src/bgk-header.png");
+  background-size: cover;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+#topnavlogo {
+  display: flex;
+  padding: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  color: turquoise;
+}
+
+#topnavmenu a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", serif;
+}
+
+#textwrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#headertext {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+#headertext hr {
+  width: 10%;
+  border: 0.5px solid turquoise;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+}
+
+.robotolight {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.button {
+  border: 2px solid turquoise;
+  background-color: Transparent;
+  color: turquoise;
+  padding: 10px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
