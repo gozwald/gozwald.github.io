@@ -1,6 +1,24 @@
+p {
+  margin: 15px;
+}
+
 #topsection {
   height: 700px;
   background-image: url("/src/bgk-header.png");
+  background-size: cover;
+}
+
+#secondsection {
+  display: flex;
+  height: 350px;
+  background-color: white;
+  background-size: cover;
+}
+
+#thirdsection {
+  display: flex;
+  height: 350px;
+  background-image: url("/src/bgk-middle.png");
   background-size: cover;
 }
 
@@ -30,6 +48,33 @@
   display: flex;
   width: 100%;
   height: 100%;
+}
+
+#boxleft {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#boxleft img {
+  padding: 60px;
+  display: flex;
+  height: 60%;
+}
+
+#boxright {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+#boxright p {
+  width: 60%;
 }
 
 #headertext {
