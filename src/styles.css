@@ -21,23 +21,16 @@ p {
   width: 100%;
   background-image: url("/src/bgk-middle.png");
   background-size: cover;
+  align-items: center;
   justify-content: center;
-}
-
-#thirdsection div {
-  display: flex;
-  width: 30%;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
   color: white;
-  overflow: hidden;
-  word-break: break-all;
-  white-space: normal;
 }
 
-#thirdsection div img {
-  width: 20%;
+#thirdsection img {
+  display: flex;
+  width: 100px;
 }
 
 #header {
