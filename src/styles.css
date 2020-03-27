@@ -18,8 +18,26 @@ p {
 #thirdsection {
   display: flex;
   height: 350px;
+  width: 100%;
   background-image: url("/src/bgk-middle.png");
   background-size: cover;
+  justify-content: center;
+}
+
+#thirdsection div {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+}
+
+#thirdsection div img {
+  width: 20%;
 }
 
 #header {
