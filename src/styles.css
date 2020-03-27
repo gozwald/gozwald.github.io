@@ -52,39 +52,20 @@ p {
 }
 
 #row2 {
-  display: flex;
   width: 100%;
-  height: 200px;
-  flex-direction: row;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   align-items: center;
-  justify-content: center;
 }
 
 #row2 div {
   
-  height: 200px;
-  width: 200px;
   border: 1px solid #000;
-  border-style: hidden hidden solid solid;
 }
 
-#row3 {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-#row3 div {
-  
-  height: 200px;
-  width: 200px;
-  border: 1px solid #000;
-  border-style: hidden hidden hidden solid;
-}
 
 #thirdsection img {
   display: flex;
@@ -192,6 +173,16 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-areas: ". . ." ". . ." ". . .";
+  grid-template-rows: 200px 200px;
+  grid-template-areas: "\31  \32  \33 " "\34  \35  \36 ";
 }
+
+.\31  { grid-area: \31 ; }
+
+.\32  { grid-area: \32 ; }
+
+.\33  { grid-area: \33 ; }
+
+.\34  { grid-area: \34 ; }
+
+.\35  { grid-area: \35 ; }
