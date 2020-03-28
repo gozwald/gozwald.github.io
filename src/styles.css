@@ -62,18 +62,18 @@ p {
 
 .container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: 200px 200px;
-  
 }
 
 .item {
   display: flex;
+  flex-direction: column;
   border: 1px solid #0000001f;
   padding: 10px;
   font-size: 30px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -189,6 +189,19 @@ p {
 
 .robotolight {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.robotoregular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.robotoblack {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-size: 14px;
 }
 
