@@ -42,12 +42,11 @@ p {
 
 #row1 {
   display: flex;
-  font-family: "Playfair Display", serif;
-  font-size: 16px;
+  flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  height: 25%;
+  justify-content: space-evenly;
+  height: 30%;
   width: 100%;
 }
 
@@ -184,7 +183,18 @@ p {
 
 .playfair {
   font-family: "Playfair Display", serif;
+  
   font-size: 32px;
+}
+
+.playfairregular {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.playfairbold {
+  font-family: "Playfair Display", serif;
+  font-weight: 900
 }
 
 .robotolight {
