@@ -40,12 +40,23 @@ p {
 
 }
 
+#fifthsection {
+  display: flex;
+  height: 700px;
+  background-image: url("/src/bgk-header.png");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+}
+
 #row1 {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 30%;
   width: 100%;
 }
@@ -228,3 +239,35 @@ p {
   cursor: pointer;
 }
 
+.block {
+  display: flex;
+  background-image: url("/src/bgk-header.png");
+  background-size: cover;
+  height: 700px;
+}
+
+.flexcolumncen {
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 250px 75px;
+  grid-gap: 0px 25px
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
