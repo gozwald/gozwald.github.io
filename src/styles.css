@@ -256,6 +256,14 @@ p {
   text-align: center;
 }
 
+.boxrow {
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .container2 {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
